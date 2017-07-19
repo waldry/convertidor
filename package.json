@@ -1,0 +1,31 @@
+{
+  "name": "convertidor",
+  "version": "0.1.0",
+  "description": "Convertidor de libras a kilogramos o viceversa",
+  "main": "dist/lib/convertidor.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel lib/convertidor.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waldry/convertidor.git"
+  },
+  "keywords": [
+    "convertidor",
+    "libras",
+    "kilogramos",
+    "platzi",
+    "reto",
+    "platzi"
+  ],
+  "author": "Waldry  Diaz <waldrymaster@outlook.com> (none)",
+  "license": "MIT",
+  "homepage": "https://github.com/waldry/convertidor#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
